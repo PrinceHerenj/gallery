@@ -12,6 +12,20 @@ p {
     font-size: 5vh;
 }
 
+.header {
+    font-family: "DM Serif Text", serif;
+    font-weight: 300;
+    font-size: 5vh;
+    text-decoration: underline 0.07em rgb(0,0,0);
+    width: fit-content;
+    height: fit-content;
+    inset: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 span {
     font-family: "DM Sans";
     font-weight: 300;
@@ -41,15 +55,24 @@ a:hover, a:active {
     padding-top: 3vh;
 }
 
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card img {
+    border-radius: 10px;
+    width: 30vw;
+    height: 79vh;
+    object-fit: cover;
+}
+
 .section__container {
     height: fit-content;
     border-radius: 20px;
-    width: 80vw;
+    width: 65vw;
     background-color: rgba(190, 195, 197, 0.5);
-    inset: 0px;
-    margin-left: auto;
-    margin-right: auto;
-
 }
 
 .navlinks {
@@ -65,8 +88,9 @@ a[href="#"] {
     text-decoration: underline 0.15em rgba(0, 0, 0, 1);
 }
 
+
 .bg {
-    background: url("../../res/img.jpg");
+    background: url("../../../res/img.jpg");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -83,7 +107,7 @@ a[href="#"] {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 101vh;
+    height: fit-content;
 }
 
 .section__content {
